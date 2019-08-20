@@ -99,7 +99,7 @@
    }
    */
    
-    echo "<br> Continue...</br>Meaning stript was not crashed by errors...</br>";
+    echo "<br> Good...</br>Meaning stript was not crashed by errors...</br>";
     ?>	
         
    </div>
