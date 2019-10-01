@@ -1,6 +1,6 @@
 
 	<?php
-	//ini_set('display_errors', 1);
+    //ini_set('display_errors', 1);
     //ini_set('display_startup_errors', 1);
     error_reporting(1);  //1-> turn on errors; 0 -> off
 	
@@ -19,7 +19,7 @@
 	class customExceptionX extends Exception {
       public function errorMessage() {
         //error message
-        $errorMsg = '<div style="padding:1em; border:1px solid black;width:70%;">' .
+        $errorMsg = '<div class="my-class">' .
 		      '<h3>You have got an ERROR (message from your Custom set Exception) </h3>' .
 			  '<p><b>Your Error message is below: </b></p>' .
      		  ' Error is on line ' . $this->getLine().
